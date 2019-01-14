@@ -1,0 +1,36 @@
+﻿header .navbar-inverse .navbar-nav > .active > a,
+header .navbar-inverse .navbar-nav > .active > a:hover,
+header .navbar-inverse .navbar-nav > .active > a:focus,
+header .dropdown-menu > li a:hover,
+header .dropdown-menu .divider,
+#color-box i {
+    background-color: #3bb232;
+}
+
+header .dropdown-menu {
+    border-top: 4px solid #3bb232;
+}
+
+.our-team .img-thumbnail {
+    border: 3px solid #3bb232;
+}
+
+.about span,
+footer span,
+header .navbar-inverse .navbar-brand span,
+header .navbar-inverse .navbar-nav > li .lang {
+    color: #3bb232;
+}
+
+.testimonials .client-img,
+.price-table .price p:hover,
+#color-box ul {
+    border: 2px solid #3bb232;
+}
+
+.features,
+.price-table,
+.testimonials,
+.price-table .price p {
+    background-color: #ecf8eb
+}

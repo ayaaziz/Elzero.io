@@ -1,0 +1,59 @@
+﻿/*Mobile And Tablets*/
+@media (max-width:767px) 
+{
+    header .navbar-inverse .navbar-nav > li {
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+
+    header .navbar-inverse .navbar-brand {
+        margin-top: -24px;
+    }
+
+    .footer .content input[type=email] {
+        margin-bottom: 10px;
+    }
+}
+
+/*Small Screen*/
+@media (min-width:768px) and (max-width:991px) 
+{
+    .navbar-nav > li {
+        margin-right:-4px;
+    }
+
+    .footer .content .img-thumbnail {
+        width: 83px;
+        height: 83px;
+    }
+
+    header .navbar-inverse .navbar-brand {
+        margin-top: -20px;
+    }
+}
+
+/*Medium Screen*/
+@media (min-width:992px) and (max-width:1199px)
+{
+    .footer .content input[type=email] {
+        margin-bottom:10px;
+    }
+
+    .footer .content .img-thumbnail {
+        width:100px;
+        height:100px;
+    }
+
+    .footer .content .wow img {
+        width:39px;
+        height:39px;
+    }
+}
+
+/*Large Screen*/
+@media (min-width:1200px)
+{
+    .footer .content input[type=email] {
+        margin-right: -23px;
+    }
+}
